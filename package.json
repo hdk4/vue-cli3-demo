@@ -1,0 +1,41 @@
+{
+  "name": "vue-cli3-demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.4.6",
+    "js-cookie": "^2.2.0",
+    "mockjs": "^1.0.1-beta3",
+    "normalize.css": "^8.0.0",
+    "nprogress": "^0.2.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-plugin-unit-mocha": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "@vue/eslint-config-prettier": "^3.0.0",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-polyfill": "^6.26.0",
+    "chai": "^4.1.2",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.9.3",
+    "postcss-import": "^12.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

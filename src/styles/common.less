@@ -1,0 +1,89 @@
+// 重置部分 element-ui 的样式
+
+@side-color-hover: #ffd04b;
+
+// 菜单效果更改
+.el-submenu.is-active .el-submenu__title {
+  color: @side-color-hover!important;
+  i {
+    color: @side-color-hover;
+  }
+}
+// 强行覆盖样式
+.menu-wrapper>li>ul>li {
+  background-color: #060606!important;
+  &:hover {
+    background-color: #0e0e0e!important;
+  }
+}
+
+// 子菜单相关样式覆盖
+.el-submenu .el-menu-item {
+  min-width: initial;
+}
+
+// 菜单收起时的一些样式处理
+.hideSidebar
+{
+  // vue 组件不支持内部传值渲染，这里给一个 class 并进行隐藏
+  .menu-name {
+    display: none;
+  }
+  >.sidebar-wrapper {
+
+    .iconfont {
+      font-size: 20px;
+      & ~* {
+        display: none;
+      }
+    }
+
+  }
+}
+
+// 分页导航
+.el-pagination {
+  margin-top: 15px;
+}
+
+// 表格展开
+.table-expand {
+  font-size: 0;
+}
+.table-expand label {
+  width: 90px;
+  color: #99a9bf;
+}
+.table-expand .el-form-item {
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
+.table-expand2 .el-form-item {
+  width: 100%;
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+// 表格 head 给一个背景色
+.el-table th {
+  background-color: #f9f9f9;
+}
+
+// 左侧树选中样式更新
+.side-tree {
+  min-height: 400px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+.side-tree .el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content {
+  background-color: #409eff;
+}
+.side-tree .el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content>.el-tree-node__label {
+  color: #fff;
+}
