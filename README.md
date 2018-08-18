@@ -7,6 +7,7 @@ A demo about vue cli 3.
 
 - 使用 `vuex` 进行状态管理。
 - 使用 `vue-router` 做路由管理。
+- UI 使用饿了么出品的 `ElementUI`。
 - 引入 `babel-polyfill`。
 - 使用 `mockjs` 做数据模拟。
 - 模拟登陆和登出的操作。
