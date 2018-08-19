@@ -3,6 +3,14 @@ A demo about vue cli 3.
 
 > 注意，本项目采用 `Vue CLI 3` 进行初始化构建而来，更多初始化方式请参考官方站点：[Vue CLI 3](https://cli.vuejs.org/)
 
+## Online
+
+[在线访问](https://hdk4.com/vue-cli3-demo)。
+
+> 注意，本后台管理系统定位为 PC 端访问，请不要再小屏设备上进行访问。
+>
+> 默认登录用户名和密码均为 `admin`。
+
 ## Feature
 
 - 使用 `vuex` 进行状态管理。
